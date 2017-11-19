@@ -37,8 +37,26 @@ public class DataManager {
             siteList.addAll(sites);
             dataManagerListener.updateListOfSites(siteList);
         }
-        else dataManagerListener.updateListOfSites(null);
+        else dataManagerListener.updateListOfSites(siteList);
     }
+
+    public void addOrEditSite(Site site)
+    {
+        if (site.getId() == null) networkManager.addSite(site.getName(),site.getUrl());
+        else {
+            networkManager.modifySite(site.getId(),site.getName(),site.getUrl());
+        }
+        getSiteList(true);
+    }
+
+
+
+    public void deleteSite(Site site){
+        networkManager.delSite(site.getId());
+        getSiteList(true);
+    }
+
+
 
     public void getPersonList(boolean wasUpdated){
         if (personList.isEmpty()|| wasUpdated) networkManager.getDataAllPerson(false);
@@ -73,6 +91,19 @@ public class DataManager {
             bufPerson = person;
             networkManager.addPerson(person.getName());
         }
+        else {
+            networkManager.modifyPerson(person.getId(),person.getName());
+            ArrayList<Keyword> arr = person.getKeywordList();
+            if (!arr.isEmpty()){
+                for(Keyword k: arr){
+                    if (k.isToDelete() && k.getId()!=null) networkManager.deleteKeyword(k.getId());
+                    else if (k.getId()!=null) networkManager.modifyKeyword(k.getId(),k.getName(),person.getId());
+                    else networkManager.addKeyword(k.getName(),person.getId());
+                }
+            }
+            getPersonList(true);
+        }
+
     }
 
     void responseFromServerAddingPerson(String response){
@@ -105,5 +136,16 @@ public class DataManager {
         }
         dataManagerListener.userCreatingResponse(SUCCESS_ADDING);
         bufPerson = null;
+        getPersonList(true);
+    }
+
+    public void deletePerson(Person person){
+        ArrayList<Keyword> arr = person.getKeywordList();
+        if (!arr.isEmpty())
+            for (Keyword k : arr) {
+                if(k.getId()!=null) networkManager.deleteKeyword(k.getId());
+            }
+        networkManager.deletePerson(person.getId());
+        getPersonList(true);
     }
 }

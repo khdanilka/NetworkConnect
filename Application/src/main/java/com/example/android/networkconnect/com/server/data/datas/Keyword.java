@@ -15,6 +15,16 @@ public class Keyword {
     @Expose
     private String name;
 
+    private boolean toDelete;
+
+    public boolean isToDelete() {
+        return toDelete;
+    }
+
+    public void setToDelete(boolean toDelete) {
+        this.toDelete = toDelete;
+    }
+
     public Integer getId() {
         return id;
     }

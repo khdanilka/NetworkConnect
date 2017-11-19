@@ -40,15 +40,29 @@ public class Main2Activity extends FragmentActivity implements DataManagerListen
         //dataManager.getPersonList(false);
 
 
-        Person p = new Person();
-        p.setName("ГНОМИЩЕ");
-        Keyword k = new Keyword();
-        k.setName("гном");
-        Keyword k1 = new Keyword();
-        k1.setName("гном111");
-        List<Keyword> key = Arrays.asList(k,k1);
-        p.setKeywordList(key);
-        dataManager.addOrEditPerson(p);
+//        Person p = new Person();
+//        p.setId(7);
+//        p.setName("Лоскутоооов");
+//        Keyword k = new Keyword();
+//        k.setName("ВитекВитек");
+//        k.setId(34);
+//        k.setToDelete(true);
+//        Keyword k1 = new Keyword();
+//        k1.setName("aaaa");
+//        List<Keyword> key = Arrays.asList(k,k1);
+//        p.setKeywordList(key);
+//        dataManager.addOrEditPerson(p);
+
+        //dataManager.deletePerson(p);
+        //dataManager.getPersonList(false);
+
+        Site site = new Site();
+        site.setId(33);
+        site.setName("kok22.ru");
+        site.setUrl("http://kok22.ru");
+        dataManager.addOrEditSite(site);
+
+        //dataManager.getSiteList(false);
 
     }
 

@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0"
-    timestamp="1511052331696"
+    timestamp="1511102199386"
     token="-40543663696331623"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="504" />
+        duration="503" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="13" />
+        duration="133" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
         location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -80,8 +80,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1511052318562"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1511102106862"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -90,7 +90,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1511052331696"
+        timestamp="1511102199386"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"

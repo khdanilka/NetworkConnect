@@ -4,9 +4,6 @@ package com.example.android.networkconnect.com.server.data.retrofit;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
-import com.example.android.networkconnect.com.server.data.test_classes.Message;
-import com.example.android.networkconnect.com.server.data.test_classes.UmoriliData;
-
 import java.util.List;
 
 import retrofit2.Call;
