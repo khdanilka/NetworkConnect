@@ -54,4 +54,7 @@ public interface RetrofitRequests {
     @GET("/unauthorized/admin/ui/modifyKeyword")
     Call<String> modifyKeywordById(@Query("id") Integer id, @Query("name") String name, @Query("personId") int personid);
 
+    @GET("/unauthorized/user/ui/getGeneralStatistics")
+    Call<List<Keyword>> getCommoStatisticId(@Query("siteID") Integer id);
+
 }

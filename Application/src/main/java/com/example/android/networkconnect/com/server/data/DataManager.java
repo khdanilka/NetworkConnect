@@ -29,6 +29,10 @@ public class DataManager {
     public void getSiteList(boolean wasUpdated){
         if (siteList.isEmpty()|| wasUpdated) networkManager.getDataAllSites();
         else dataManagerListener.updateListOfSites(siteList);
+
+        ArrayList<Person> p = new ArrayList<>();
+        p.addAll(personList);
+
     }
 
     void siteListFromServer(List<Site> sites){
