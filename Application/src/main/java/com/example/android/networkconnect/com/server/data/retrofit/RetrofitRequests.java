@@ -1,6 +1,7 @@
 package com.example.android.networkconnect.com.server.data.retrofit;
 
 
+import com.example.android.networkconnect.com.server.data.datas.CommonStatistic;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
@@ -55,6 +56,6 @@ public interface RetrofitRequests {
     Call<String> modifyKeywordById(@Query("id") Integer id, @Query("name") String name, @Query("personId") int personid);
 
     @GET("/unauthorized/user/ui/getGeneralStatistics")
-    Call<List<Keyword>> getCommoStatisticId(@Query("siteID") Integer id);
+    Call<List<CommonStatistic>> getGeneralStatisticId(@Query("siteID") Integer id);
 
 }

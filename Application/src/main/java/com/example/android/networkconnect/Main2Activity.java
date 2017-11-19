@@ -12,6 +12,7 @@ import com.android.volley.toolbox.Volley;
 import com.example.android.networkconnect.com.server.data.DataManager;
 import com.example.android.networkconnect.com.server.data.DataManagerListener;
 import com.example.android.networkconnect.com.server.data.NetworkManager;
+import com.example.android.networkconnect.com.server.data.datas.CommonStatistic;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
@@ -22,6 +23,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.sql.SQLOutput;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -56,14 +58,17 @@ public class Main2Activity extends FragmentActivity implements DataManagerListen
         //dataManager.deletePerson(p);
         //dataManager.getPersonList(false);
 
-        Site site = new Site();
-        site.setId(33);
-        site.setName("kok22.ru");
-        site.setUrl("http://kok22.ru");
-        dataManager.addOrEditSite(site);
+//        Site site = new Site();
+//        site.setId(33);
+//        site.setName("kok22.ru");
+//        site.setUrl("http://kok22.ru");
+//        dataManager.addOrEditSite(site);
 
         //dataManager.getSiteList(false);
 
+        //dataManager.getPersonList(false);
+        //dataManager.getSiteList(false);
+        //dataManager.getGeneralStatistic(5);
     }
 
     @Override
@@ -94,6 +99,12 @@ public class Main2Activity extends FragmentActivity implements DataManagerListen
 
     }
 
+    @Override
+    public void updateGeneralStatistic(ArrayList<CommonStatistic> commonStatistics) {
 
+        for(CommonStatistic s: commonStatistics){
+            System.out.println(s);
+        }
 
+    }
 }

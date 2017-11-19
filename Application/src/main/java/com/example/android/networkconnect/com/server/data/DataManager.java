@@ -2,6 +2,7 @@ package com.example.android.networkconnect.com.server.data;
 
 import android.annotation.SuppressLint;
 
+import com.example.android.networkconnect.com.server.data.datas.CommonStatistic;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
@@ -151,5 +152,16 @@ public class DataManager {
             }
         networkManager.deletePerson(person.getId());
         getPersonList(true);
+    }
+
+    public void getGeneralStatistic(int id){
+        networkManager.getGeneralStatisticNetworkRequest(id);
+    }
+
+    void responseFromServerGeneralStatistic(List<CommonStatistic> commonStatistics){
+
+        ArrayList<CommonStatistic> arr = new ArrayList<>();
+        arr.addAll(commonStatistics);
+        dataManagerListener.updateGeneralStatistic(arr);
     }
 }

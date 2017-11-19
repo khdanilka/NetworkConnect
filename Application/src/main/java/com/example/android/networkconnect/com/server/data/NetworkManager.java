@@ -1,5 +1,6 @@
 package com.example.android.networkconnect.com.server.data;
 
+import com.example.android.networkconnect.com.server.data.datas.CommonStatistic;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
@@ -273,6 +274,28 @@ public class NetworkManager {
                 System.out.println("ERROR " + t);
             }
         });
+    }
+
+
+    void getGeneralStatisticNetworkRequest(int id) {
+
+        Call<List<CommonStatistic>> serverTimeCall = rr.getGeneralStatisticId(id);
+        serverTimeCall.enqueue(new Callback<List<CommonStatistic>>() {
+            @Override
+            public void onResponse(Call<List<CommonStatistic>> call, Response<List<CommonStatistic>> response) {
+
+                System.out.println("мы какой то ответ получили");
+                dataManager.responseFromServerGeneralStatistic(response.body());
+            }
+
+            @Override
+            public void onFailure(Call<List<CommonStatistic>> call, Throwable t) {
+                System.out.println("ERROR " + t);
+            }
+        });
+
+
+
     }
 
 }
