@@ -1,0 +1,4 @@
+#Sun Nov 19 05:35:59 UZT 2017
+base.0=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/transforms/dexMerger/debug/7
+renamed.0=classes.dex
+file.0=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/transforms/dexMerger/debug/7/classes.dex
