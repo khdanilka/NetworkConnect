@@ -5,28 +5,55 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="FIELD_ADDED"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.0.0"
-    timestamp="1511215932088"
+    timestamp="1511217950232"
     token="-40543663696331623"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="532" />
+        duration="1282" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="160" />
+        duration="149" />
     <task
         name="verifier"
-        duration="67" />
+        duration="46" />
 
+    <artifact
+        location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/android/Desktop/android-NetworkConnect/Application/build/outputs/apk/debug/Application-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -71,30 +98,39 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1511202426854"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/android/Desktop/android-NetworkConnect/Application/build/outputs/apk/debug/Application-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1511214568822"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1511217950232"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1511215932088"
-        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/android/Desktop/android-NetworkConnect/Application/build/outputs/apk/debug/Application-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
