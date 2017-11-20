@@ -52,8 +52,10 @@ public class Keyword {
     @Override
     public String toString() {
         return "Keyword{" +
-                "personId=" + personId +
+                "id=" + id +
+                ", personId=" + personId +
                 ", name='" + name + '\'' +
+                ", toDelete=" + toDelete +
                 '}';
     }
 }

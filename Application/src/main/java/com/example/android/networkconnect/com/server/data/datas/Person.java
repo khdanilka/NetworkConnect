@@ -143,6 +143,11 @@ public class Person implements Parcelable {
         return keywordList;
     }
 
+    public void addKeyword(Keyword k){
+        if (keywordList == null) keywordList = new ArrayList<>();
+        keywordList.add(k);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -156,6 +161,10 @@ public class Person implements Parcelable {
     @Override
     public int hashCode() {
         return id != null ? id.hashCode() : 0;
+    }
+
+    public Person(){
+
     }
 
     protected Person(Parcel in) {

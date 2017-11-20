@@ -1,8 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-44:12
-INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-44:12
-INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-44:12
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-49:12
+INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-49:12
+INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-49:12
+MERGED from [com.android.support:design:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/e87da6b7e05a04b4b0f968d84ca14a4b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/5a3e32ccc1d5c3e90cbba085bd688120/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:gridlayout-v7:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.0.0.aar/5883f2f556059d0922feec249f68b6e4/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/88ff2aa365da0cea531e684475687c82/AndroidManifest.xml:17:1-22:12
@@ -13,12 +14,14 @@ MERGED from [com.android.support:support-media-compat:27.0.0] /Users/android/.gr
 MERGED from [com.android.support:support-fragment:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/ceafd4a76b3d21dccf11a3497427980b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/e9625b3181eb16394023dd724e783f92/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/8544c7a0d8f1d5652bac3e43c07ceec9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/95c0131bb32c0f1a013333aa537020d3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/b291585a3f8e658fafd0dc6a1ba4f709/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/0533148f9e938b70f10405ab5e029e66/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/7db2cb2420af8ad3822c63b83d1bc428/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/10d3dc019c37a7b8e63eac1bc4d03274/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2e31d2e17c04c13c6d86bcbf95e6e84c/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-44:12
-INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-44:12
+INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-49:12
+INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-49:12
 	package
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:17:5-49
 	android:versionName
@@ -39,8 +42,20 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:26:5-71
+	android:name
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:26:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:27:5-71
+	android:name
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:27:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:28:5-72
+	android:name
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:28:22-69
 application
-ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:25:5-42:19
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:30:5-47:19
 MERGED from [com.android.volley:volley:1.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/62da03b828e85ca0af8cea7b523a29b9/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/62da03b828e85ca0af8cea7b523a29b9/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/android/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/7aa071362bce0a02bbfbb79732a4ef75/AndroidManifest.xml:9:5-20
@@ -48,37 +63,43 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/andr
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2e31d2e17c04c13c6d86bcbf95e6e84c/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2e31d2e17c04c13c6d86bcbf95e6e84c/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:28:9-41
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:33:9-41
 	android:icon
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:27:9-45
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:32:9-45
 	android:allowBackup
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:26:9-35
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:31:9-35
 	android:theme
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:30:9-44
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:35:9-47
 	android:networkSecurityConfig
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:29:9-69
-activity#com.example.android.networkconnect.Main2Activity
-ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:31:9-40:20
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:34:9-69
+activity#com.example.android.networkconnect.CreateEditActivity
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:36:9-45:20
 	android:label
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:33:13-45
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:38:13-45
 	android:uiOptions
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:34:13-57
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:39:13-57
 	android:name
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:32:13-42
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:37:13-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:35:13-39:29
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:36:17-69
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:38:17-77
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:43:27-74
+activity#com.example.android.networkconnect.Main2Activity
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:46:9-60
+	android:name
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:46:19-48
 uses-sdk
 INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml
 INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/e87da6b7e05a04b4b0f968d84ca14a4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/e87da6b7e05a04b4b0f968d84ca14a4b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/5a3e32ccc1d5c3e90cbba085bd688120/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/5a3e32ccc1d5c3e90cbba085bd688120/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:gridlayout-v7:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.0.0.aar/5883f2f556059d0922feec249f68b6e4/AndroidManifest.xml:20:5-44
@@ -99,10 +120,14 @@ MERGED from [com.android.support:support-core-utils:27.0.0] /Users/android/.grad
 MERGED from [com.android.support:support-core-utils:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/e9625b3181eb16394023dd724e783f92/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/8544c7a0d8f1d5652bac3e43c07ceec9/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/8544c7a0d8f1d5652bac3e43c07ceec9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/95c0131bb32c0f1a013333aa537020d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/95c0131bb32c0f1a013333aa537020d3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/b291585a3f8e658fafd0dc6a1ba4f709/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/b291585a3f8e658fafd0dc6a1ba4f709/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/0533148f9e938b70f10405ab5e029e66/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/0533148f9e938b70f10405ab5e029e66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/7db2cb2420af8ad3822c63b83d1bc428/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/7db2cb2420af8ad3822c63b83d1bc428/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/10d3dc019c37a7b8e63eac1bc4d03274/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/10d3dc019c37a7b8e63eac1bc4d03274/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2e31d2e17c04c13c6d86bcbf95e6e84c/AndroidManifest.xml:20:5-22:41
