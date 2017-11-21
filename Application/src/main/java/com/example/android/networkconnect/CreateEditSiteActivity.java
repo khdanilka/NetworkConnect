@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.android.networkconnect.com.server.data.DataManager;
 import com.example.android.networkconnect.com.server.data.datas.Site;
 
 public class CreateEditSiteActivity extends AppCompatActivity implements View.OnClickListener {
@@ -25,12 +26,12 @@ public class CreateEditSiteActivity extends AppCompatActivity implements View.On
         setContentView(R.layout.activity_create_edit_site);
 
 
-        Intent intent = getIntent();
-        site = intent.getParcelableExtra("test site");
-//
-//        site = new Site();
-//        site.setName("koko");
-//        site.setUrl("koko.ru");
+        //Intent intent = getIntent();
+        //site = intent.getParcelableExtra("test site");
+
+        site = new Site();
+        site.setName("koko");
+        site.setUrl("koko.ru");
 
 
         name = (EditText) findViewById(R.id.name_site);
@@ -76,6 +77,10 @@ public class CreateEditSiteActivity extends AppCompatActivity implements View.On
 
         b = (Button) findViewById(R.id.add_button_site);
         b.setOnClickListener(this);
+
+
+        DataManager d = new DataManager(null);
+        d.getSiteList(false);
 
     }
 

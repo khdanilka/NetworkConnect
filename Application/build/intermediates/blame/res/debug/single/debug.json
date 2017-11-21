@@ -1484,6 +1484,10 @@
         "source": "/Users/android/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/0ea80639c139eeb7b7a38ed6c0adfc78/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/android/Desktop/android-NetworkConnect/Application/src/main/res/layout/activity_main.xml"
+    },
+    {
         "merged": "/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/Users/android/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/0ea80639c139eeb7b7a38ed6c0adfc78/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },

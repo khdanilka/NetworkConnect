@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 21 03:46:08 UZT 2017
+#Tue Nov 21 23:59:13 UZT 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout-v17/notification_template_big_media_narrow.xml
 14.set=ANDROID_RESOURCE
@@ -50,7 +50,7 @@
 275.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 198.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 121.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
-296.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable-v21/$avd_show_password__2.xml
+296.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
 291.set=ANDROID_RESOURCE
 142.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout-v17/tooltip.xml
 250.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
@@ -132,7 +132,7 @@
 276.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 199.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 122.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
-297.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_light.xml
+297.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable-v21/$avd_show_password__2.xml
 220.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout/notification_template_big_media_custom.xml
 143.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
 251.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
@@ -209,7 +209,7 @@
 277.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/transforms/mergeJavaRes/debug/0.jar
 200.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 123.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
-298.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout-v17/abc_alert_dialog_title_material.xml
+298.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_light.xml
 221.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
 144.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/color-v23/abc_btn_colored_text_material.xml
 252.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
@@ -288,7 +288,7 @@
 201.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 70.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout-v17/select_dialog_multichoice_material.xml
 124.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
-299.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout-v22/abc_alert_dialog_button_bar_material.xml
+299.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout-v17/abc_alert_dialog_title_material.xml
 222.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout/abc_activity_chooser_view_list_item.xml
 145.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout/abc_select_dialog_material.xml
 253.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/transforms/mergeJavaRes/debug/0.jar
@@ -365,6 +365,7 @@
 202.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 71.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/menu/main.xml
 125.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
+300.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout-v22/abc_alert_dialog_button_bar_material.xml
 223.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout/notification_action_tombstone.xml
 146.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
 254.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
@@ -537,7 +538,7 @@
 181.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 121.set=ANDROID_RESOURCE
 227.set=ANDROID_RESOURCE
-count=300
+count=301
 273.set=DEX
 27.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 77.set=ANDROID_RESOURCE
@@ -559,6 +560,7 @@ count=300
 110.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable/abc_seekbar_track_material.xml
 162.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable/abc_textfield_search_material.xml
 193.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
+300.set=ANDROID_RESOURCE
 291.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/color/abc_primary_text_material_dark.xml
 241.set=ANDROID_RESOURCE
 182.set=DEX
@@ -793,7 +795,7 @@ count=300
 165.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout/notification_template_media_custom.xml
 273.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/transforms/dexMerger/debug/14
 196.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
-294.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable/design_fab_background.xml
+294.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout/activity_main.xml
 271.set=ANDROID_RESOURCE
 140.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/transforms/mergeJavaRes/debug/0.jar/META-INF/com.android.support_support-vector-drawable.version
 171.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
@@ -811,6 +813,7 @@ count=300
 96.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 248.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 71.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
+300.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 223.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 146.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 180.set=ANDROID_RESOURCE
@@ -869,7 +872,7 @@ count=300
 274.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 197.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
 120.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_
-295.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+295.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/drawable/design_fab_background.xml
 281.set=ANDROID_RESOURCE
 141.file=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_/res/layout/design_menu_item_action_area.xml
 172.base=/Users/android/Desktop/android-NetworkConnect/Application/build/intermediates/res/debug/resources-debug.ap_

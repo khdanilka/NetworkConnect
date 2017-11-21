@@ -19,6 +19,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.example.android.networkconnect.com.server.data.DataManager;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 

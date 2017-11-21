@@ -1,6 +1,7 @@
 package com.example.android.networkconnect.com.server.data;
 
 import com.example.android.networkconnect.com.server.data.datas.CommonStatistic;
+import com.example.android.networkconnect.com.server.data.datas.DaylyStatistic;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
@@ -294,6 +295,26 @@ public class NetworkManager {
             }
         });
 
+
+    }
+
+
+    void getDaylyStatisticNetworkRequest(int id, String datefrom, String dateto) {
+
+        Call<List<DaylyStatistic>> serverTimeCall = rr.getDaylyStatistic(id,datefrom,dateto);
+        serverTimeCall.enqueue(new Callback<List<DaylyStatistic>>() {
+            @Override
+            public void onResponse(Call<List<DaylyStatistic>> call, Response<List<DaylyStatistic>> response) {
+
+                System.out.println("мы какой то ответ получили");
+                dataManager.responseFromServerDayleStatistic(response.body());
+            }
+
+            @Override
+            public void onFailure(Call<List<DaylyStatistic>> call, Throwable t) {
+                System.out.println("ERROR " + t);
+            }
+        });
 
 
     }

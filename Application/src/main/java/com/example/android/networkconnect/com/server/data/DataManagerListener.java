@@ -2,6 +2,7 @@ package com.example.android.networkconnect.com.server.data;
 
 
 import com.example.android.networkconnect.com.server.data.datas.CommonStatistic;
+import com.example.android.networkconnect.com.server.data.datas.DaylyStatistic;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
 
@@ -15,4 +16,5 @@ public interface DataManagerListener {
     void updateListOfPersons(HashSet<Person> sites);
     void userCreatingResponse(String msg);
     void updateGeneralStatistic(ArrayList<CommonStatistic> commonStatistics);
+    void updateDaylyStatistic(ArrayList<DaylyStatistic> daylyStatistics);
 }

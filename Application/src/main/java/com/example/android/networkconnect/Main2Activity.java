@@ -1,7 +1,9 @@
 package com.example.android.networkconnect;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -13,6 +15,7 @@ import com.example.android.networkconnect.com.server.data.DataManager;
 import com.example.android.networkconnect.com.server.data.DataManagerListener;
 import com.example.android.networkconnect.com.server.data.NetworkManager;
 import com.example.android.networkconnect.com.server.data.datas.CommonStatistic;
+import com.example.android.networkconnect.com.server.data.datas.DaylyStatistic;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
@@ -69,6 +72,10 @@ public class Main2Activity extends FragmentActivity implements DataManagerListen
         //dataManager.getPersonList(false);
         //dataManager.getSiteList(false);
         //dataManager.getGeneralStatistic(5);
+
+
+        dataManager.getDaylyStatistic(1,"2017-10-10","2018-10-10");
+
     }
 
     @Override
@@ -106,5 +113,13 @@ public class Main2Activity extends FragmentActivity implements DataManagerListen
             System.out.println(s);
         }
 
+    }
+
+    @Override
+    public void updateDaylyStatistic(ArrayList<DaylyStatistic> daylyStatistics) {
+
+        for(DaylyStatistic s: daylyStatistics){
+            System.out.println(s);
+        }
     }
 }

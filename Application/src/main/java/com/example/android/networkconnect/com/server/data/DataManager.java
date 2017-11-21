@@ -3,6 +3,7 @@ package com.example.android.networkconnect.com.server.data;
 import android.annotation.SuppressLint;
 
 import com.example.android.networkconnect.com.server.data.datas.CommonStatistic;
+import com.example.android.networkconnect.com.server.data.datas.DaylyStatistic;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
@@ -163,5 +164,16 @@ public class DataManager {
         ArrayList<CommonStatistic> arr = new ArrayList<>();
         arr.addAll(commonStatistics);
         dataManagerListener.updateGeneralStatistic(arr);
+    }
+
+    public void getDaylyStatistic(int siteID, String datefrom, String dateto){
+        networkManager.getDaylyStatisticNetworkRequest(siteID,datefrom,dateto);
+    }
+
+
+    void responseFromServerDayleStatistic(List<DaylyStatistic> daylyStatisticcs){
+        ArrayList<DaylyStatistic> arr = new ArrayList<>();
+        arr.addAll(daylyStatisticcs);
+        dataManagerListener.updateDaylyStatistic(arr);
     }
 }

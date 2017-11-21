@@ -2,6 +2,7 @@ package com.example.android.networkconnect.com.server.data.retrofit;
 
 
 import com.example.android.networkconnect.com.server.data.datas.CommonStatistic;
+import com.example.android.networkconnect.com.server.data.datas.DaylyStatistic;
 import com.example.android.networkconnect.com.server.data.datas.Keyword;
 import com.example.android.networkconnect.com.server.data.datas.Person;
 import com.example.android.networkconnect.com.server.data.datas.Site;
@@ -57,5 +58,8 @@ public interface RetrofitRequests {
 
     @GET("/unauthorized/user/ui/getGeneralStatistics")
     Call<List<CommonStatistic>> getGeneralStatisticId(@Query("siteID") Integer id);
+
+    @GET("/unauthorized/user/ui/getDailyStatistics")
+    Call<List<DaylyStatistic>> getDaylyStatistic(@Query("siteID") Integer id, @Query("datefrom") String datefrom, @Query("dateto") String dateto);
 
 }

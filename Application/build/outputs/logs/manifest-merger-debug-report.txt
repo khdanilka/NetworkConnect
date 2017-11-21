@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-50:12
-INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-50:12
-INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-50:12
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-51:12
+INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-51:12
+INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-51:12
 MERGED from [com.android.support:design:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/e87da6b7e05a04b4b0f968d84ca14a4b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/5a3e32ccc1d5c3e90cbba085bd688120/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:gridlayout-v7:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.0.0.aar/5883f2f556059d0922feec249f68b6e4/AndroidManifest.xml:17:1-22:12
@@ -20,8 +20,8 @@ MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/android/
 MERGED from [com.android.support:transition:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/7db2cb2420af8ad3822c63b83d1bc428/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/10d3dc019c37a7b8e63eac1bc4d03274/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2e31d2e17c04c13c6d86bcbf95e6e84c/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-50:12
-INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-50:12
+INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-51:12
+INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:16:1-51:12
 	package
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:17:5-49
 	android:versionName
@@ -55,7 +55,7 @@ ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/An
 	android:name
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:28:22-69
 application
-ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:30:5-48:19
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:30:5-49:19
 MERGED from [com.android.volley:volley:1.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/62da03b828e85ca0af8cea7b523a29b9/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.0.0] /Users/android/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/62da03b828e85ca0af8cea7b523a29b9/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/android/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/7aa071362bce0a02bbfbb79732a4ef75/AndroidManifest.xml:9:5-20
@@ -72,14 +72,14 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/android/.gradle/caches
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:35:9-47
 	android:networkSecurityConfig
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:34:9-69
-activity#com.example.android.networkconnect.CreateEditSiteActivity
+activity#com.example.android.networkconnect.DataPicker
 ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:36:9-45:20
 	android:label
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:38:13-45
 	android:uiOptions
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:39:13-57
 	android:name
-		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:37:13-51
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:37:13-39
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
@@ -95,9 +95,13 @@ ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/An
 	android:name
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:46:19-48
 activity#com.example.android.networkconnect.CreateEditActivity
-ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:47:9-65
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:47:9-56
 	android:name
 		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:47:19-53
+activity#com.example.android.networkconnect.CreateEditSiteActivity
+ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:48:9-69
+	android:name
+		ADDED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml:48:19-57
 uses-sdk
 INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/android/Desktop/android-NetworkConnect/Application/src/main/AndroidManifest.xml

@@ -22,12 +22,12 @@ import android.test.ActivityInstrumentationTestCase2;
 /**
 * Tests for NetworkConnect sample.
 */
-public class SampleTests extends ActivityInstrumentationTestCase2<MainActivity> {
+public class SampleTests extends ActivityInstrumentationTestCase2<DataPicker> {
 
-    private MainActivity mTestActivity;
+    private DataPicker mTestActivity;
 
     public SampleTests() {
-        super(MainActivity.class);
+        super(DataPicker.class);
     }
 
     @Override
